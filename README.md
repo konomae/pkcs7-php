@@ -13,5 +13,8 @@ use Konomae\PKCS7\Degenerate;
 $x509 = file_get_contents('/path/to/x509certificate.der');
 
 $p7 = new Degenerate($x509);
+
+// Same result of the command:
+// openssl crl2pkcs7 -nocrl -certfile client.crt -outform PEM -out client.p7b.pem
 $p7->toPEM();
 ```
