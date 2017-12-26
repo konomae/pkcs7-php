@@ -5,6 +5,15 @@
 Degenerate PKCS7 certificate only form.
 
 
+## Installation
+
+```bash
+composer require konomae/pkcs7-php
+```
+
+
+## Example
+
 ```php
 <?php
 use Konomae\PKCS7\Degenerate;
