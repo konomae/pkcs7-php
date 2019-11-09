@@ -1,5 +1,6 @@
 {
     "name": "konomae/pkcs7-php",
+    "description": "Degenerate PKCS7 certificate only form.",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -13,5 +14,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
