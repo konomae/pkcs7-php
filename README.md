@@ -1,6 +1,6 @@
 # PKCS7-PHP
 
-[![Build Status](https://travis-ci.org/konomae/pkcs7-php.svg?branch=master)](https://travis-ci.org/konomae/pkcs7-php)
+[![Build Status](https://github.com/konomae/pkcs7-php/workflows/PHP%20Composer/badge.svg)](https://github.com/konomae/pkcs7-php/actions)
 
 Degenerate PKCS7 certificate only form.
 
