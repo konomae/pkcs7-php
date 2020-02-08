@@ -15,7 +15,7 @@ jobs:
         php-version: ['7.0', '7.1', '7.2', '7.3']
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
     - name: Validate composer.json and composer.lock
       run: php${{ matrix.php-version }} /usr/bin/composer validate
